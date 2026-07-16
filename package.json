@@ -1,0 +1,17 @@
+{
+  "name": "claude-usage-dashboard",
+  "version": "0.1.0",
+  "description": "Local web dashboard for Claude plan usage: history, trends, burn rate, and limit projections.",
+  "type": "module",
+  "bin": {
+    "claude-usage-dashboard": "src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "seed-demo": "node scripts/seed-demo.js"
+  },
+  "engines": {
+    "node": ">=23.4"
+  },
+  "license": "MIT"
+}
